@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    font-size: 9rem;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-500 p-2 mt-9 ml-10  border rounded-md text-xl hover:bg-transparent hover:scale-125;
+  }
+}
